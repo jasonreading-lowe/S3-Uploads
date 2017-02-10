@@ -1,5 +1,5 @@
 {
-	"name": "humanmade/s3-uploads",
+	"name": "mlg/humanmade-s3-uploads",
 	"description": "WordPress plugin to store uploads on S3",
 	"homepage": "https://github.com/humanmade/S3-Uploads",
 	"keywords": [
@@ -19,6 +19,7 @@
 	},
 	"type": "wordpress-plugin",
 	"require": {
-		"composer/installers": "~1.0"
+		"composer/installers": "~1.0",
+		"aws/aws-sdk-php": "^3.22"
 	 }
 }
